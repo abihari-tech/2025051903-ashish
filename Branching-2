@@ -1,0 +1,11 @@
+balance = 203345
+withdraw = 6200
+
+if withdraw <= 0:
+    print("Invalid amount")
+elif withdraw > balance:
+    print("Insufficient balance")
+else:
+    balance -= withdraw
+    print("Withdrawal successful")
+    print("Remaining balance:", balance)
