@@ -1,0 +1,19 @@
+a = int(input("Enter your A value: "))
+b = int(input("Enter your B value: "))
+
+print("Arithmetic Operators")
+print(f"{a} + {b} = {a + b}")
+print(f"{a} - {b} = {a - b}")
+print(f"{a} * {b} = {a * b}")
+print(f"{a} / {b} = {a / b:.2f}")  
+print(f"{a} % {b} = {a % b}\n")
+
+#Output
+Enter your A value: 95
+Enter your B value: 32
+Arithmetic Operators
+95 + 32 = 127
+95 - 32 = 63
+95 * 32 = 3040
+95 / 32 = 2.97
+95 % 32 = 31
