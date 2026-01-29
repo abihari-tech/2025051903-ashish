@@ -1,0 +1,20 @@
+a = int(input("Enter A value: "))
+b = int(input("Enter B value: "))
+c = int(input("Enter C value: "))
+
+# Logical AND
+print(a > b and a < c)   
+
+# Logical OR
+print(a > b or a > c)    
+
+# Logical NOT
+print(not (a > b))      
+
+#Output
+Enter A value: 43
+Enter B value: 23
+Enter C value: 67
+True
+True
+False
