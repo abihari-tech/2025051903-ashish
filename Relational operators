@@ -1,0 +1,30 @@
+a = int(input("Enter A value: "))
+b = int(input("Enter B value: "))
+
+# Equal to
+print(a == b)
+
+# Not equal to
+print(a != b)
+
+# Greater than
+print(a > b)
+
+# Less than
+print(a < b)
+
+# Greater than or equal to
+print(a >= b)
+
+# Less than or equal to
+print(a <= b)
+
+#Output
+Enter A value: 67
+Enter B value: 19
+False
+True
+True
+False
+True
+False
