@@ -1,0 +1,16 @@
+s = "Python Programming"
+
+print("Length:", len(s))
+print("Type:", type(s))
+print("Minimum character:", min(s))
+print("Maximum character:", max(s))
+print("Sorted characters:", sorted(s))
+
+#Output
+Length: 18
+Type: <class 'str'>
+Minimum character:  
+Maximum character: y
+Sorted characters: [' ', 'P', 'P', 'a', 'g', 'g', 'h', 'i', 'm', 'm', 'n', 'n', 'o', 'o', 'r', 'r', 't', 'y']
+
+=== Code Execution Successful ===
