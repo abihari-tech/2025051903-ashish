@@ -1,0 +1,11 @@
+import math
+
+num = 25
+print("Square root:", math.sqrt(num))
+print("Factorial:", math.factorial(5))
+print("Power:", math.pow(2, 3))
+
+#Output
+Square root: 5.0
+Factorial: 120
+Power: 8.0
