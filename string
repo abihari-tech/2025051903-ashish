@@ -1,0 +1,12 @@
+import string
+
+print("Alphabets:", string.ascii_letters)
+print("Digits:", string.digits)
+print("Punctuation:", string.punctuation)
+
+#Output
+Alphabets: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+Digits: 0123456789
+Punctuation: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+
+=== Code Execution Successful ===
