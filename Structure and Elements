@@ -1,0 +1,24 @@
+# Example program structure
+
+# Variable declaration
+language = "Python"
+
+# Function definition
+def greet(name):
+    return f"Hello, {name}! Welcome to {language}."
+
+# Loop with condition
+for i in range(1, 4):
+    if i % 2 == 0:
+        print("Even number:", i)
+    else:
+        print("Odd number:", i)
+
+# Function call
+print(greet("Ashish"))
+
+#Output
+Odd number: 1
+Even number: 2
+Odd number: 3
+Hello, Ashish! Welcome to Python.
