@@ -1,0 +1,10 @@
+for i in range(3):
+    print("Loop iteration:", i)
+    if i == 1:
+        print("This is inside the if block")
+
+#Output
+Loop iteration: 0
+Loop iteration: 1
+This is inside the if block
+Loop iteration: 2
